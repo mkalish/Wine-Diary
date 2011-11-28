@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget31"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget34"
+android:layout_width="fill_parent"
+android:layout_height="20px"
+android:text="Wine Diary"
+android:gravity="center"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+>
+</TextView>
+<Button
+android:id="@+id/widget33"
+android:layout_width="197px"
+android:layout_height="wrap_content"
+android:text="View Entries"
+android:layout_below="@+id/widget30"
+android:layout_alignLeft="@+id/widget30"
+>
+</Button>
+<Button
+android:id="@+id/widget30"
+android:layout_width="198px"
+android:layout_height="wrap_content"
+android:text="New Entry"
+android:layout_centerVertical="true"
+android:layout_centerHorizontal="true"
+>
+</Button>
+</RelativeLayout>
